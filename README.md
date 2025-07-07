@@ -1,6 +1,6 @@
 # air_quality_monitor
 温湿度計とダストセンサーを使い、空気の状態を表示するシステム
-\```python
+```python
 import RPi.GPIO as GPIO
 import dht11
 from time import sleep
@@ -156,4 +156,4 @@ try:
 except KeyboardInterrupt:
     print('End:' + str(datetime.datetime.now()))
     GPIO.cleanup()
-\```
+```
