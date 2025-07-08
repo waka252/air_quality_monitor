@@ -122,7 +122,7 @@ def main():
                 play_beep(0.1)
                 sleep(0.1)
                 play_beep(0.1)
-            elif(temp <=12 or temp >28 or 29 > humi or humi > 71):
+            elif(temp <=12 or temp >28 or 30 > humi or humi > 71):
                 for _ in range(3):
                     play_beep(0.3)
                     sleep(0.1)
